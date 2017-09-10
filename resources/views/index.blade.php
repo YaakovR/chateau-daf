@@ -9,7 +9,7 @@
         <title>Home</title>
 
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	    <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
+	    <link rel="stylesheet" type="text/css" href="/css/style.css">
 
     </head>
     <body>
@@ -22,7 +22,7 @@
 							<span class="icon-bar"></span>
 						</button>
 						<!--<a href="http://localhost/chateauDaf/index.php" class="navbar-brand">
-							<img id="logo" src="images/logo.png" alt="Logo">
+							<img id="logo" src="img/logo.png" alt="Logo">
 						</a>-->
 					</div>
                 <div class="collapse navbar-collapse navbar-right" id="navbar_links">
@@ -52,7 +52,7 @@
         <div class="jumbotron jumbotron-fixed-top">
             <div class="container">
                 <a href="index.php">
-                    <img id="logo" src="../../public/images/logo.png" alt="Logo">
+                    <img id="logo" src="/img/logo.png" alt="Logo">
                 </a>
             </div>
         </div>
@@ -71,28 +71,28 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img id="homePageImage" src="../../public/images/dafYomi1.jpg" alt="Home Page Image">
+                        <img id="homePageImage" src="/img/dafYomi1.jpg" alt="Home Page Image">
                         <div class="carousel-caption">
                             <!--<h2>Learning the Daf</h2>-->
                         </div>
                     </div>
 
                     <div class="item">
-                        <img id="homePageImage" src="../../public/images/dafYomi2.jpg" alt="Daf Yomi 1">
+                        <img id="homePageImage" src="/img/dafYomi2.jpg" alt="Daf Yomi 1">
                         <div class="carousel-caption">
                             <!--<h2>With a geshmak!</h2>-->
                         </div>
                     </div>
 
                     <div class="item">
-                        <img id="homePageImage" src="../../public/images/dafYomi3.jpg" alt="Daf Yomi 2">
+                        <img id="homePageImage" src="/img/dafYomi3.jpg" alt="Daf Yomi 2">
                         <div class="carousel-caption">
                             <!--<h2>What a sight at 5:45AM!</h2>-->
                         </div>
                     </div>
 
                     <div class="item">
-                        <img id="homePageImage" src="../../public/images/dafYomi4.jpg" alt="Daf Yomi 2">
+                        <img id="homePageImage" src="/img/dafYomi4.jpg" alt="Daf Yomi 2">
                         <div class="carousel-caption">
                             <!--<h2>Meet the champions of the shuir!</h2>-->
                         </div>
