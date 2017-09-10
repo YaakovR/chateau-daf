@@ -1,0 +1,122 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+	background-color: rgba(0, 0, 0, 0.2);
+	border: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: blue;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.jumbotron {
+	position: relative;
+    z-index: 999;
+	background-color: rgba(0, 0, 0, 0.1);
+	height: 200px;
+}
+
+#logo {
+	width: 50%;
+	margin-top: 25px;
+    margin-bottom: -25px;
+}
+
+#myCarousel {
+  //z-index: -999;
+  //height: 100%;
+  //width: 100%;
+  //height: auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.carousel-caption {
+	//margin-bottom: 500px;
+	//bottom: 500px;
+	top: 625px;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+
+#shiurimWell {
+	margin-right: 50px;
+	height: 500px;
+}
+
+#postsDiv {
+	margin-right: 50px;
+	height: 500px;
+	overflow-y: scroll;
+}
+
+#map {
+	height: 80%;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: -30px;
+	//border: black solid 1px;
+}
+
+#directionsPanel {
+	max-height: 60%;
+	width: 20%;
+	//margin-right: 9%;
+	//margin-top: 2%;
+	//border: black solid 1px;
+	border-left: black solid 1px;
+	border-bottom: black solid 1px;
+	//float: right;
+	background-color: white;
+	overflow-y: scroll;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+#userLocation {
+	//height: 75px;
+	width: 20%;
+	//border: black solid 1px;
+	//border-top: black solid 1px;
+	border-left: black solid 1px;
+	background-color: white;
+	padding-top: 8px;
+	padding-bottom: 1px;
+	padding-right: 8px;
+	padding-left: 8px;
+	font-size: 1.3em;
+}
+
+.form-control {
+    padding: 0px 6px;
+	font-style: italic;
+}
+
+#chumashIframe, #boxDivChumash {
+	margin: 0 auto;
+}
