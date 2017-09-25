@@ -13,6 +13,7 @@ class CreateMesechtosTable extends Migration
      */
     public function up()
     {
+        Schema::dropIfExists('mesechtos');
         Schema::create('mesechtos', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
